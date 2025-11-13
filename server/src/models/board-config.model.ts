@@ -27,3 +27,5 @@ const boardConfigSchema = new Schema<IBoardConfig>(
   },
   { timestamps: true }
 );
+
+export default model<IBoardConfig>("BoardConfig", boardConfigSchema);
